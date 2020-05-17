@@ -686,7 +686,38 @@ transform: rotate(45deg);
 
     }
 }
+/* for small screen */
 
-
-
-
+@media(max-width:393px){
+    .header-content h1{
+        font-size: 25px;
+    }
+    .header-content p{
+        font-size: 16px;
+    }
+    
+    .header-buttons a{
+        line-height: 55px;
+    
+    }
+    /* button start */
+    .header-buttons a{
+        text-decoration: none;
+        font-size: 20px;
+        border: 1px solid #fff;
+        padding: 10px 20px;
+        color: #fff;
+        border-radius: 100px;
+        margin: 0.5rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    
+    }
+    .project-done{
+        height: 800px;   
+    }
+    .projectdone-banner{
+        height: 700px;
+    }
+    
+}
