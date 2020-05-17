@@ -1,0 +1,692 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+a{
+    text-decoration: none !important;
+    
+}
+a:hover{
+    text-decoration: none !important;
+}
+i{
+    color: #2fccd0 !important;
+}
+li{
+    list-style: none !important;
+}
+
+/* //////header starts//// */
+.header{
+    background: url('image/iot.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    background-position: fixed;
+    background-attachment: fixed;
+    clip-path: polygon(100% 0%,100% 90%,50% 100%,0 90%,0 0);
+    position: relative;
+}
+.header:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: -1;
+    opacity: o.1;
+    background: linear-gradient(to right,#2209fa3b 0%,#1204924b 0%,#2703aa5d 100%);
+}
+/* navbar starts */
+
+.navbar{
+    background:linear-gradient(rgba(32, 3, 197, 0.582) 0%,rgba(12, 2, 70, 0.267) 0%,rgba(36, 4, 180, 0.24)100%);
+    color: #fff;
+    z-index: -1;
+    text-align: center;
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 15px;
+    color: #fff !important;
+}
+.nav-link:hover{
+    color: #00E8E8 !important;
+}
+.navbar-brand{
+    font-size: 40px;
+    color: #00E8E8 !important;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.navbar-brand:hover{
+    color: #00E8E8 !important;
+    
+}
+.active{
+    color: #00E8E8 !important; ;
+}
+/* navbar end */
+/* header content starts */
+.header-content{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.header-content h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+.header-content p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    line-height: 1.1;
+    padding-bottom: 15px;
+}
+
+.header-buttons a{
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 12px 35px;
+    color: #fff;
+    border-radius: 100px;
+    margin: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+.header-buttons a:hover{
+    background-color: #fff;
+    color: #00E8E8;
+    text-decoration: none;
+    
+}
+.dropdown-menu{
+    background: rgba(0, 0, 255, 0.459) !important;
+    border-style: none;
+}
+.dropdown-menu a{
+    color: #fff !important;
+}
+.dropdown-menu a:hover{
+    color: #00E8E8 !important;
+    background: rgba(0, 0, 255, 0.459) !important;
+}
+
+/* header content end */
+
+/* //////header end//// */
+
+/* ////Extra div starts///// */
+.heaaderextradiv{
+    text-align: center;
+    width: 100%;
+    height: inherit;
+    margin: 100px 0;
+    padding: 30px;
+    
+}
+.Extra-div{
+    border: medium none;
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.Extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+.Extra-div h2{
+    font-size: 0.9rem;
+    line-height: 1.1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 10px 20px;
+    color: #000;
+}
+/* ////Extra div end///// */
+
+/* //////Offer css starts///// */
+.serviceoffers{
+    background:#8b86861a;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+.headings{
+    margin-bottom: 50px;
+
+}
+.headings h1{
+    font-size: 1.5rem !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+}
+.names{
+    width: 80%;
+}
+.names h1{
+    color: #2e2e2e;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.service-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress{
+    height: 0.6rem !important;
+    margin-bottom: 25px !important;
+    background-color: #606060 !important;
+}
+.servicediv h2{
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+/* ///////Offer css End//////// */
+
+/* //////Projectdone start/// */
+.project-done{
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;   
+}
+.projectdone-banner{
+    background:linear-gradient(rgba(43, 5, 214, 0.801),#161536ee), url('image/handshake.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+}
+.projectdone-content{
+    padding: 100px 0;
+}
+.project-done-header {
+    margin-bottom: 60px;
+}
+.project-done-header h2{
+    font-size:1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+}
+.counter h3{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+}
+.counter p{
+    color: hsl(177, 95%, 44%);
+}
+.icon-box{
+border: 1px solid #fff;
+height: 100px;
+width: 100px;
+margin: 20px auto;
+transform: rotate(45deg);
+}
+.icon-box .fa{
+    font-size: 40px;
+    margin: 24px auto;
+    color: #ffc800 !important;
+    transform: rotate(-45deg);
+
+}
+
+/* //////Projectdone End/// */
+
+/* //////Pricing css starts//// */
+.headings h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+.pricing{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    position: relative;
+}
+.pricing:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: -1;
+    background: linear-gradient(160deg,#16c9f6 55%,#fff 0%);
+}
+.money{
+    font-size: 40px;
+    line-height: 1;
+    color: #606060;
+}
+.card{
+    transition: 0.4s ease;
+    
+
+}
+.card-header{
+    font-size: 1.6rem;
+    font-weight: bold;
+    background: #fff !important;
+    padding: 15px 9px !important;
+}
+.card-body{
+    padding: 20px 0 !important;
+}
+.card-body li{
+    margin: 10px 0px !important;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #606060;
+}
+.card-footer{
+    background: white !important;
+    padding: 20px 0px !important;
+}
+
+.card-footer a{
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid #50d1c0;
+    padding: 12px 35px;
+    color: #50d1c0;
+    border-radius: 100px;
+    margin: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+.card:hover .card-footer a{
+    background-color: #50d1c0;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    
+}
+.card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+.card:hover .card-header,.card:hover .money{
+    color: #50d1c0;
+}
+.card-second{
+    transform: translateY(-20px);
+
+}
+/* //////Pricing css End/////// */
+
+/* //////Our customers feedback starts/////// */
+.happyclients{
+    width: 100%;
+    height: 100vh;
+    padding: 80px 0px;
+}
+.box{
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+    transition: 0.3s ease;
+    height: 380px !important;
+}
+.box:hover{
+    background: #16c9f6;
+}
+.box:hover p{
+    color: #fff;
+}
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: -60px !important;
+}
+.carousel-indicators li{
+    background-color: red !important;
+}
+.carousel-indicators .active{
+    background-color: #00E8E8 !important;
+}
+.box a{
+    position: relative;
+}
+.box a img{
+    width: 100px ;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.box a:after{
+    content: "\f10d";
+    font-family: FontAwesome;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);
+    color: #fff;
+    position: absolute;
+    top:120%;
+    left: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box h1{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+}
+.box h2{
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+    margin-bottom: 20px;
+}
+/* //////Our customers feedback End/////// */
+/* about us start */
+.aboutmain{
+    background: #000;
+    width: 100%;
+    height: 500px;
+    margin: 50px 0;
+    position: relative;
+}
+.about-content{
+    padding: 80px 300px;
+    text-align: center;
+}
+.about-content h1{
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: 'Alike', serif;
+    font-weight: 400;
+    color: #fff !important;
+}
+.about-content h2{
+    font-size: 15px;
+    color: yellow;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+/* about us end */
+
+
+/* ////////Contact Us Start//////// */
+.contactus{
+    width: 100%;
+    height: 100vh;
+    padding: 80px 0;
+    position: relative;
+}
+.contactus:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: linear-gradient(330deg,#16c9f6 55%,#fff 0%);
+}
+
+    .buttons {
+        text-decoration: none;
+        font-size: 20px;
+        border: 1px solid #16c9f6;
+        padding: 8px 30px;
+        color: #16c9f6;
+        border-radius: 100px;
+        margin: 0.5rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        background: transparent;
+    }
+    form:hover .buttons{
+        background: #fff;
+        color: #16c9f6;
+        box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    }
+    ::placeholder{
+        font-size: 0.85rem;
+    }
+
+/* ////////Contact Us End//////// */
+/* ////////Newsletter Starts//////// */
+.newsletter{
+    width: 100%;
+    height: auto;
+    margin: 80px auto;
+}
+.news-input{
+    border-radius: 100px 0px 0px 100px !important;
+    min-width: 150px;
+    min-height: 45px !important;
+}
+.input-group-text{
+    color: #fff !important;
+    background: #5bc0de !important;
+    border-radius: 0 100px 100px 0;
+    min-width: 120px;
+    min-height: 45px;
+}
+
+/* ////////Newsletter  End//////// */
+/* ////////Footer  Starts//////// */
+.footersection{
+    width: 100%;
+    height: auto;
+    padding: 70px 0 20px 0;
+    background: #00abff;
+    position: relative;
+
+}
+.footersection p{
+    color: #fff;
+}
+.footer-div li a{
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+.footer-div li a:hover{
+    color: #00E8E8 !important;
+}
+.footer-div h3{
+    font-size: 1.2rem !important;
+    margin-bottom: 25px;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+
+}
+
+/* ////////Footer  End//////// */
+/* //////Scroll top start */
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: #fff;
+    background: #00abff;
+    padding: 10px;
+    border-radius: 10px;
+}
+#myBtn:hover{
+    background-color: #606060;
+}
+
+/* //////Scroll top End */
+/* for mobile */
+/* media queries start  */
+@media(max-width:600px){
+    .header-content h1{
+        font-size: 30px;
+    }
+    .header-content p{
+        font-size: 18px;
+    }
+    
+    .header-buttons a{
+        line-height: 65px;
+    
+    }
+    .nav-link{
+        text-align: left !important;
+    }
+    .pricing{
+        width: 100%;
+        height: 1450px;
+    }
+    .card{
+        margin-top: 30px !important;
+    }
+    .card-second{
+        transform: translateY(0px) !important;
+    
+    }
+    .happyclients{
+        height: auto;
+    }
+    .about-content{
+        padding:0px !important;
+        text-align: center;
+        padding-top: 80px !important;
+    }
+    .footersection{
+        height: auto;
+    }
+    .footer-div{
+        text-align: left !important;
+        padding-bottom: 20px;
+    }
+    .footer-div li a{
+        font-size: 17px !important;
+    }
+    .footer-div li a:hover{
+        color: #00E8E8 !important;
+    }
+    .newsletter-main{
+        margin-top: 50px !important;
+    }
+
+}
+/* for tab */
+@media(min-width:601px) and (max-width:768px){
+    .header-content h1{
+        font-size: 30px;
+    }
+    .header-content p{
+        font-size: 18px;
+    }
+    
+    .header-buttons a{
+        padding:10px 20px;
+        margin:0px;
+    
+    }
+    .nav-link{
+        text-align: left !important;
+    }
+    .pricing{
+        width: 100%;
+        height: 1450px;
+    }
+    .card{
+        margin-top: 20px !important;
+    }
+    .card-second{
+        transform: translateY(0px) !important;
+    
+    }
+    .happyclients{
+        height: auto;
+    }
+    .about-content{
+        padding:0px !important;
+        text-align: center;
+        padding-top: 80px !important;
+    }
+    .footersection{
+        height: auto;
+    }
+    .footer-div{
+        text-align: left !important;
+        padding-bottom: 20px;
+    }
+    .footer-div li a{
+        font-size: 17px !important;
+    }
+    .footer-div li a:hover{
+        color: #00E8E8 !important;
+    }
+    .newsletter-main{
+        margin-top: 50px !important;
+    }
+}
+/* for big tab */
+@media(min-width:769px) and (max-width:992px){
+    .pricing{
+        width: 100%;
+        height: 1450px;
+    }
+    .card{
+        margin-top: 20px !important;
+    }
+    .card-second{
+        transform: translateY(0px) !important;
+    
+    }
+    .box{
+        height: 410px !important;
+    }
+    .about-content{
+        padding:80px 0px 0px 0px !important;
+    }
+}
+@media(min-width:993px){
+    .news-input{
+        min-width: 140px !important;
+        min-height: 45px !important;
+    }
+    .input-group-text{
+        min-width: 100px !important;
+        min-height: 45px !important;
+
+    }
+}
+
+
+
+
